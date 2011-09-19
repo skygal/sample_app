@@ -1,5 +1,9 @@
 source 'http://rubygems.org'
 
+group :development, :test do
+  gem 'web-app-theme', '>= 0.6.2'
+end
+
 gem 'rails', '3.0.9'
 
 # Bundle edge Rails instead:
